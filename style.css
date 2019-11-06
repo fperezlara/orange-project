@@ -1,112 +1,205 @@
 /* ---- reset ---- */
 
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  /* ---- typography ---- */
-  
-  body {
-    color: white;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 147%;
-  }
-  
-  h1 {}
-  
-  h2 {}
-  
-  h3 {}
+	box-sizing: border-box;
+}
 
-  header ul {
-    list-style: none;
-  }
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
 
-  header ul a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  p {
-    margin: 0;
-  }
+body {
+	margin: 0;
+	padding: 0;
+}
 
-  h1.page-title {
-    font-family: Roboto-Black;
-    font-size: 26px;
-    text-transform: uppercase;
-  }
-  
-  
-  
-  /* ---- layout ---- */
 
-  body {
-    background-color: #F8765E;
-    text-align: center;
-  }
+/* ---- typography ---- */
 
-  header {
-    text-align: center;
-  }
+body {
+	color: white;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
 
-  h1.page-title {
-    text-align: center;
-  }
-  
-  #site-header {
-    padding: 30px 0;
-    color: white;
-    background: #111;
-  }
-  
-  #site-footer {
-    color: white;
-    padding: 60px 0;
-    background: #111;
-  }
-  
-  #site-main {
-    margin-bottom: 60px;
-  }
-  
-  .container {
-    margin: 0 20px;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-    padding-top: 20px;
-  }
-  
- 
-  
-  
-  
-  /* ---- components ---- */
-  
-  .button {
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    border: 1px solid #fff;
-  }
-  
-  .button-alt {
-    color: blue;
-    background-color: #fff;
-  }
-  
-  /* ---- section ---- */
-  
-  
+h1 {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 900;
+}
+
+h2 {
+	text-align: left;
+	height: 25px;
+	width: 295px;
+	color: #031D5B;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+h3 {}
+
+header ul {
+	list-style: none;
+}
+
+header ul a {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+h1.page-title {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+input[type=text] {
+	font-size: 17px;
+	color: #CDCDCD;
+	padding: 20px;
+}
+
+section .white-rounded {
+	height: 192px;
+	width: 295px;
+	color: #5B6C94;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+
+/* ---- layout ---- */
+
+body {
+	background-color: #F8765E;
+	text-align: center;
+	margin: 0px 30px;
+}
+
+header {
+	text-align: center;
+}
+
+.iPhone-header {
+	height: 231px;
+	width: 286px;
+}
+
+h1.page-title {}
+
+input[type=text] {
+	width: 365px;
+	height: 60px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+form {
+	text-align: center;
+}
+
+button {
+	height: 60px;
+	width: 168px;
+	border-radius: 20px;
+	background-color: #9BDBE7;
+	box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+}
+
+.subscribe-now {
+	height: 60px;
+	width: 168px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
+	background-color: #9BDBE7;
+	box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+}
+
+article {
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#site-header {
+	padding: 30px 0;
+	color: white;
+	background: #111;
+}
+
+#site-footer {
+	color: white;
+	padding: 60px 0;
+	background: #111;
+}
+
+#site-main {
+	margin-bottom: 60px;
+}
+
+.container {
+	margin: 0 20px;
+}
+
+.section {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+/* ---- components ---- */
+
+.button {
+	width: 100%;
+	background-color: blue;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.button-alt {
+	color: blue;
+	background-color: #fff;
+}
+
+
+/* ---- section ---- */
+
+section.white-rounded {
+	height: 1571px;
+	width: 335px;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	color: #5B6C94;
+	font-family: Roboto;
+	padding: 20px;
+}
+
+.divider-1 {
+	margin-top: 15px;
+	height: 5px;
+	width: 60px;
+	background-color: #F8765E;
+}
