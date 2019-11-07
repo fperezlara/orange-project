@@ -50,7 +50,32 @@ h2 {
 	line-height: 25px;
 }
 
-h3 {}
+#testimonials h2 {
+  color: var(--main-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 130px;
+}
+
+h3 {
+  color: var(--color-primary); 
+  font-size: 30px;
+  font-weight: 900;
+  margin: 50px 0px 0px 0px;
+}
+
+h4 {
+  color: var(--color-text); 
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+}
 
 header ul {
 	list-style: none;
@@ -61,10 +86,83 @@ header ul a {
 	text-decoration: none;
 }
 
+footer ul {
+	list-style: none;
+}
+
+footer ul a {
+	color: white;
+	text-decoration: none;
+}
+
 p {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 32px;
+}
+section.pricing p {
+  color: var(--color-text)
+}
+
+section#testimonials {
+  padding: 90px 20px 60px 20px;
+  position: relative;
+}
+
+section#testimonials img {
+  margin-left: -200px;
+  height: 165px;
+  width: 151px;
+}
+
+section#testimonials h2 {
+  color: var(--color-primary)
+}
+
+.pricing a {
+  height: 60px;
+  width: auto;
+  border-radius: 20px;
+  background-color: var(--color-secundary);
+  box-shadow: var(--drop-shadow);
+  margin: 0px 0px 25px;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#testimonials ul li {
+  height: auto;
+  width: 95%;
+  border-radius: 20px;
+  background-color: var(--color-secundary);
+  box-shadow: var(--drop-shadow);
+  margin: 0 auto;
+  padding: 60px 40px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+#testimonials ul li img {
+  height: 40px;	
+  width: 49px;  
+}
+
+nav {
+  margin: 0px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+#testimonials ul li:last-child {
+  background-color: #FFF;
+  color: var(--main-color);
 }
 
 h1.page-title {
@@ -191,13 +289,39 @@ article {
 
 /* section */
 section.benefit {
-  margin-top: -100px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: -70px;
 	width: 80%;
 	border-radius: var(--border-radius);
-	background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  border: white;
   box-shadow: var(--drop-shadow);
-	color: var(--color-text);
+  color: var(--color-text);
+  margin-left: auto;
+  margin-right: auto;
+}
 
+section.pricing {
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.circleBase {
+  border-radius: 50%;
+}
+
+.type1 {
+  position: absolute;
+  z-index: -1;
+  width: 296px;
+  height: 296px;
+  background: var(--color-primary);
+}
+
+section.pricing img{
+  height: 359px;	
+  width: 179.76px;
 }
 
 .divider {
@@ -210,4 +334,29 @@ section.benefit {
 div.white-background {
   top: -100px;
   background-color: white;
+}
+
+footer{
+  background-color: var(--color-primary);
+  text-align: center;
+  color: #FFF;
+  padding: 10px 20px 40px;
+}
+
+footer nav ul{
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+#subscribe h2{
+  color: var(--color-primary);
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  width: auto;
+}
+
+#subscribe p{
+  
 }
